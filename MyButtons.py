@@ -25,8 +25,12 @@ class Mybuttons:
             self.display.showText("green")
             self._buzzer.beep()
             time.sleep(0.5)
-        elif name == "green":
+        elif name == "yellow":
             self.display.showText("yellow")
+            self._buzzer.beep()
+            time.sleep(0.5)
+        elif name == "blue":
+            self.display.showText("blue")
             self._buzzer.beep()
             time.sleep(0.5)
         else:
