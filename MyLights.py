@@ -38,11 +38,11 @@ class MyLight:
             self.display.showText("green")
             self._buzzer.beep()
        
-        elif self._yl.on()":
+        elif self._yl.on():
             self.display.showText("yellow")
             self._buzzer.beep()
         
-        elif self._bl.on()":
+        elif self._bl.on():
             self.display.showText("yellow")
             self._buzzer.beep()
         else:
