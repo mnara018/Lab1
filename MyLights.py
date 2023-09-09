@@ -12,6 +12,7 @@ class MyLight:
         self._yl = Light(11,"yellow") """ connects the yellow light to pin GP11, assigns a name"""
         self._bl = Light(10,"blue") """ connects the blue light to pin GP10, assigns a name"""
         self._buzzer =PassiveBuzzer(16) """ connects the buzzer to the gp16"""
+        self._display =LCDDisplay(sda = 0, scl =1, i2cid=0) """connects the screen to the rasperryPico"""
         self.Display()
         self.Lights()
         self._num = 0 "storage a number"
